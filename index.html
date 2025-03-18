@@ -21,96 +21,85 @@
 	<div class="fakeLoader"></div>
 	<!-- end loader -->
 
-	<!-- navbar -->
-	<nav class="navbar navbar-expand-md fixed-top">
-		<div class="containers">
-			<a href="index.html" class="navbar-brand"><img src="images/logo.png" style="width: 230px;" alt=""></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<i class="fa fa-bars"></i>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="#home">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#download">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#pricing">Pricing</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#contact">Contact us</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<!-- end navbar -->
+	<!-- Floating Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <a href="index.html" class="navbar-brand">
+            <img src="images/logo.png" alt="Logo" class="navbar-logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#download">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#products">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
 
 	<!-- home intro -->
-	<div class="home-intro" id="home">
+	<section id="home" class="home-intro">
 		<div class="container">
-			<div class="row">
-				<div class="col col-sm-12 col-md-6 col-12">
-					<div class="content">
-						<h3>Clean And</h3>
-						<h3>Healthy</h3>
-						<h3>Enterprises</h3>
-						<h2>Sanitary Napkins, Vending Machines, Incinerator.</h2>
+			<div class="row align-items-center">
+				<!-- Text Content -->
+				<div class="col-lg-6 col-md-12 text-center text-md-left">
+					<h1 class="hero-title">Clean And Healthy Enterprises</h1>
+					<h2 class="hero-subtitle">Sanitary Napkins, Vending Machines, Incinerator</h2>
 
-						<ul>
-							<li><a href="#download" class="button">Get Started</a></li>
-							<li><a href="#contact" class="button">Contact Now</a></li>
-						</ul>
+					<div class="cta-buttons">
+						<a href="#download" class="button">Get Started</a>
+						<a href="#contact" class="button">Contact Now</a>
 					</div>
 				</div>
-				<div class="col col-sm-12 col-md-6 col-12">
-					<div class="content-image">
-						<img src="images/interfaceimg.jpg" alt="">
-					</div>
+
+				<!-- Image -->
+				<div class="col-lg-6 col-md-12 text-center">
+					<img src="images/interfaceimg.jpg" alt="Clean and Healthy Enterprises" class="hero-img">
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
+
 	<!-- end end intro -->
 
 	<!-- about -->
 	<section id="download" class="call-to-action-1 text-left">
 		<div class="container">
-			<div class="rows">
-
-				<img alt="Sencillo" class="feature-img-left" src="images/ceo.jpg ">
-				<div class="col-lg-10 col-lg-push-1 col-sm-12 col-sm-push-0 wow fadeInUp animated"
-					style="visibility: visible;">
-					<div class="col-lg-4 col-md-4 hidden-sm hidden-xs content text-center wow fadeInUp animated"
-						style="visibility: visible;">
-					</div>
-					<h1 alt="Sencillo" class="hero-title">CEO / Owner</h1>
-					<h4 alt="Sencillo" class="hero-subtitle">Swapan Dutt</h4>
-					<br><br><br>
-					<p>"Our goal is to focus on Women Hygiene at economical rates by providing sanitary pad vending
-						machines for availability of Sanitary Napkins at the right time - at right place along with
-						incinerators to dispose them after use. Our machines provide the convenience of on-site vending
-						without the need for stock storage and without adding to the workload of in-house personnel. Our
-						range of coin operated vending machines offers washroom users an extensive range of small pack
-						convenience products suitable for female washrooms. We are associated with government, private
-						and NGOs.
-
-						Our awareness campaigns include donating sanitary napkins and educating the slum area
-						girls/women about them.
-
-						These vending machines are easy to install anywhere like a dispenser. It is manufactured to
-						international standards with a high rate of reliability built in and proven through
-						performance.Users have the reassurance of trusted, high quality products and the vending
-						machines are made from sturdy ABS plastic or metal construction which makes them vandal
-						resistant. All of our vending machines have reliable coin mechanisms"
+			<div class="row align-items-center">
+				<!-- CEO Image -->
+				<div class="col-md-4 text-center">
+					<img src="images/ceo.jpg" alt="CEO Image" class="feature-img">
+				</div>
+				<!-- CEO Details -->
+				<div class="col-md-8">
+					<h1 class="hero-title">CEO / Owner</h1>
+					<h4 class="hero-subtitle">Swapan Dutt</h4>
+					<p>
+						"Our goal is to focus on Women Hygiene at economical rates by providing sanitary pad vending
+						machines
+						for availability of Sanitary Napkins at the right time - at the right place along with
+						incinerators to dispose of them after use.
+						Our machines provide convenience, durability, and efficiency."
 					</p>
 				</div>
 			</div>
 		</div>
 	</section>
+
 
 	<section class="about-features">
 		<img class="img-responsive" src="images/brochure1.jpg" alt="Sencillo">
@@ -122,460 +111,185 @@
 
 	<section id="how-works">
 		<div class="container">
-			<div class="rows">
-
-				<div class="col-lg-12">
-					<div class="section-title-content">
-						<h2 alt="Sencillo" class="section-title text-center wow fadeInUp">Working Of Our Incinerator
-						</h2>
+			<div class="row justify-content-center">
+				<div class="col-lg-8 text-center">
+					<h2 class="section-title">Working of our Incinerator</h2>
+					<p class="section-description">
+						Watch how our advanced incinerator operates efficiently, offering eco-friendly and reliable
+						waste management solutions.
+					</p>
+					<div class="video-wrapper">
+						<video class="inc-video" width="100%" height="auto" controls>
+							<source src="images/uploadvid.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
 					</div>
 				</div>
-				<center>
-					<video width="100%" height="auto" controls>
-						<source src="images/uploadvid.mp4" type="video/mp4">
-
-					</video>
-				</center>
-				<div class="clear"></div>
-
-				<!-- /point-3 -->
-				<div class="clear"></div>
-				<br><br><br>
 			</div>
 		</div>
 	</section>
 
+
 	<!-- Working Video section ends-->
 
-	<!-- Gallery Section Start -->
-	<div class="gallery--section pd--100-0" id="gallery">
+		<!-- Working of Vending Machine -->
+	<section id="how-works-vending" class="section-padding">
 		<div class="container">
-			<!-- Section Title Start -->
-			<div class="gallery--title">
-				<h2 class="legend-title">Our Products</h2>
-
-
-			</div>
-			<!-- Section Title End -->
-
-
-
-			<!-- Gallery Items Start -->
-			<div class="gallery--items row">
-				<!-- Gallery Item Start -->
-				<div class="gallery--item col-md-3 col-xs-6 col-xxs-12" data-cat="computer mobile laptop">
-					<div class="gallery--img">
-						<img src="images/gallery/gallery-item-01.jpg" height="195px" alt="" data-rjs="2">
-
-						<div class="gallery--info bg--overlay">
-							<div class="vc--parent">
-								<div class="vc--child">
-									<h3 class="h4"></h3>
-
-									<p></p>
-
-
-								</div>
-							</div>
-						</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-8 text-center">
+					<h2 class="section-title">Working of our Vending Machine</h2>
+					<p class="section-description">
+						Watch how our advanced vending machines operate, providing sanitary napkins at the right time and place, ensuring convenience and hygiene for all.
+					</p>
+					<div class="video-wrapper">
+						<!-- Add your video source here -->
+						<video width="100%" height="550px" controls>
+							<source src="/images/working-vending.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
 					</div>
-				</div>
-				<!-- Gallery Item End -->
-
-				<!-- Gallery Item Start -->
-				<div class="gallery--item col-md-3 col-xs-6 col-xxs-12" data-cat="laptop other tablet">
-					<div class="gallery--img">
-						<img src="images/gallery/gallery-item-02.jpg" height="195px" alt="" data-rjs="2">
-
-						<div class="gallery--info bg--overlay">
-							<div class="vc--parent">
-								<div class="vc--child">
-									<h3 class="h4"></h3>
-
-									<p></p>
-
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Gallery Item End -->
-
-				<!-- Gallery Item Start -->
-				<div class="gallery--item col-md-3 col-xs-6 col-xxs-12" data-cat="tablet computer mobile">
-					<div class="gallery--img">
-						<img src="images/gallery/gallery-item-03.jpg" alt="" height="195px" data-rjs="2">
-
-						<div class="gallery--info bg--overlay">
-							<div class="vc--parent">
-								<div class="vc--child">
-									<h3 class="h4"></h3>
-
-									<p></p>
-
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Gallery Item End -->
-
-				<!-- Gallery Item Start -->
-				<div class="gallery--item col-md-3 col-xs-6 col-xxs-12" data-cat="mobile laptop other">
-					<div class="gallery--img">
-						<img src="images/gallery/gallery-item-04.jpg" alt="" height="195px" data-rjs="2">
-
-						<div class="gallery--info bg--overlay">
-							<div class="vc--parent">
-								<div class="vc--child">
-									<h3 class="h4"></h3>
-
-									<p></p>
-
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Gallery Item End -->
-
-				<!-- Gallery Item Start -->
-				<div class="gallery--item col-md-3 col-xs-6 col-xxs-12" data-cat="other tablet">
-					<div class="gallery--img">
-						<img src="images/gallery/gallery-item-05.jpg" alt="" height="195px" data-rjs="2">
-
-						<div class="gallery--info bg--overlay">
-							<div class="vc--parent">
-								<div class="vc--child">
-									<h3 class="h4"></h3>
-
-									<p></p>
-
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Gallery Item End -->
-
-				<!-- Gallery Item Start -->
-				<div class="gallery--item col-md-3 col-xs-6 col-xxs-12" data-cat="computer mobile">
-					<div class="gallery--img">
-						<img src="images/gallery/gallery-item-06.jpg" alt="" height="195px" data-rjs="2">
-
-						<div class="gallery--info bg--overlay">
-							<div class="vc--parent">
-								<div class="vc--child">
-									<h3 class="h4"></h3>
-
-									<p></p>
-
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Gallery Item End -->
-
-				<!-- Gallery Item Start -->
-				<div class="gallery--item col-md-3 col-xs-6 col-xxs-12" data-cat="laptop other">
-					<div class="gallery--img">
-						<img src="images/gallery/gallery-item-07.jpg" alt="" height="195px" data-rjs="2">
-
-						<div class="gallery--info bg--overlay">
-							<div class="vc--parent">
-								<div class="vc--child">
-									<h3 class="h4"></h3>
-
-									<p></p>
-
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Gallery Item End -->
-
-				<!-- Gallery Item Start -->
-				<div class="gallery--item col-md-3 col-xs-6 col-xxs-12" data-cat="tablet computer">
-					<div class="gallery--img">
-						<img src="images/gallery/gallery-item-08.jpg" alt="" height="195px" data-rjs="2">
-
-						<div class="gallery--info bg--overlay">
-							<div class="vc--parent">
-								<div class="vc--child">
-									<h3 class="h4"></h3>
-
-									<p></p>
-
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Gallery Item End -->
-
-				<!-- Gallery Item Start -->
-				<div class="gallery--item col-md-3 col-xs-6 col-xxs-12" data-cat="tablet computer">
-					<div class="gallery--img">
-						<img src="images/gallery/gallery-item-09.jpg" alt="" height="195px" data-rjs="2">
-
-						<div class="gallery--info bg--overlay">
-							<div class="vc--parent">
-								<div class="vc--child">
-									<h3 class="h4"></h3>
-
-									<p></p>
-
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Gallery Item End -->
-
-				<!-- Gallery Item Start -->
-				<div class="gallery--item col-md-3 col-xs-6 col-xxs-12" data-cat="tablet computer">
-					<div class="gallery--img">
-						<img src="images/gallery/gallery-item-10.jpg" alt="" height="195px" data-rjs="2">
-
-						<div class="gallery--info bg--overlay">
-							<div class="vc--parent">
-								<div class="vc--child">
-									<h3 class="h4"></h3>
-									<p></p>
-
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Gallery Item End -->
-
-				<!-- Gallery Item Start -->
-				<div class="gallery--item col-md-3 col-xs-6 col-xxs-12" data-cat="tablet computer">
-					<div class="gallery--img">
-						<img src="images/gallery/gallery-item-11.jpg" alt="" height="195px" data-rjs="2">
-
-						<div class="gallery--info bg--overlay">
-							<div class="vc--parent">
-								<div class="vc--child">
-									<h3 class="h4"></h3>
-
-									<p></p>
-
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Gallery Item End -->
-
-				<!-- Gallery Item Start -->
-				<div class="gallery--item col-md-3 col-xs-6 col-xxs-12" data-cat="tablet computer">
-					<div class="gallery--img">
-						<img src="images/gallery/gallery-item-12.jpg" alt="" height="195px" data-rjs="2">
-
-						<div class="gallery--info bg--overlay">
-							<div class="vc--parent">
-								<div class="vc--child">
-									<h3 class="h4"></h3>
-
-									<p></p>
-
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Gallery Item End -->
-			</div>
-			<!-- Gallery Items End -->
-		</div>
-	</div>
-
-	<!-- pricing -->
-	<div id="pricing">
-		<h1 class="pricing--head">Our Pricing Package</h1>
-		<div class="background">
-			<div class="container">
-
-				<div class="panel pricing-table">
-
-					<div class="pricing-plan">
-						<img src="images/pricing/sanitary-napkin-dispenser-250x250.jpg" height="240px" alt=""
-							class="pricing-img">
-						<h2 class="pricing--header">Sanitary Napkin Vending Machine(Big)</h2>
-						<ul class="pricing-features">
-							<li class="pricing--features-item">Sanitary Napkins Vending Machine with Capacity of 55-60
-								Pads
-							</li>
-
-						</ul>
-						<span class="pricing--price"><sup>Rs</sup>6000</span>
-						<a href="https://www.indiamart.com/mscleanhealthyenterprises/sanitary-napkin-vending-machine.html"
-							class="pricing-button">Buy Now</a>
-					</div>
-
-					<div class="pricing-plan">
-						<img src="images/pricing/sanitary-napkin-disposal-machine-250x250.jpg" style="height: 240px;"
-							alt="" class="pricing-img">
-						<h2 class="pricing-header">Big Incinerator</h2>
-						<ul class="pricing-features">
-							<li class="pricing-features-item">1000 Watt Ceramic heater with auto cut and LED display
-							</li>
-							<li class="pricing-features-item">Burning capacity- 7 to 8 pads at a time</li>
-						</ul>
-						<span class="pricing-price"><sup>Rs</sup>14000</span>
-						<a href="https://www.indiamart.com/mscleanhealthyenterprises/sanitary-napkin-disposal-machine.html"
-							class="pricing-button">Buy Now</a>
-					</div>
-
-					<div class="pricing-plan">
-						<img src="images/pricing/sanitary-napkin-incinerator-250x250.jpg" style="height: 240px;" alt=""
-							class="pricing-img">
-						<h2 class="pricing-header">Small Incinerator</h2>
-						<ul class="pricing-features">
-							<li class="pricing-features-item">1000 Watt Ceramic heater with auto cut and LED display
-							</li>
-							<li class="pricing-features-item">Burning capacity- 3 to 4 pads at a time</li>
-						</ul>
-						<span class="pricing-price"><sup>Rs</sup>12000</span>
-						<a href="https://www.indiamart.com/mscleanhealthyenterprises/sanitary-napkin-incinerator.html"
-							class="pricing-button">Buy Now</a>
-					</div>
-
 				</div>
 			</div>
 		</div>
+	</section>
+	<!-- End Working of Vending Machine -->
 
-		<div class="background" id="pricing">
-			<div class="container">
-				<h1 class="pricing--head">Our Pricing Package</h1>
-				<div class="panel pricing-table">
+	<section id="products" class="product-section">
+		<div class="container">
+			<!-- Section Title -->
+			<h2 class="section-title">Our Products</h2>
+			<p class="section-sub-title">Explore our range of machines designed for efficiency and sustainability.</p>
 
-					<div class="pricing-plan">
-						<img src="images/pricing/sanitary-napkin-vending-machine-250x250.jpg" height="240px" alt=""
-							class="pricing-img">
-						<h2 class="pricing-headers">Sanitary Napkin Vending Machine</h2>
-						<ul class="pricing-features">
-							<li class="pricing--features-item">Sanitary Napkins Vending Machine with Capacity of 25-30
-								Pads
+			<hr class="section-divider">
 
-							</li>
+			<!-- Vending Machines Section -->
+			<div class="product-category">
+				<h3 class="product-category-title">Vending Machines</h3>
+				<div class="product-grid">
+					<div class="product-item">
+						<img src="/images/Products/manual vedning machine.jpg" alt="Manual Vending Machine"
+							class="product-img-ven">
+						<h3>Manual Vending Machine</h3>
+						<p>Capacity - 60 pads</p>
+					</div>
+					<div class="product-item">
+						<div class="product-image-slider">
+							<img src="/images/Products/automatic-vending-machine.jpg" alt="Automatic Vending Machine - Front" class="product-img-ven">
+							<img src="/images/Products/Screenshot 2025-02-28 154828.png" alt="Automatic Vending Machine - Side" class="product-img-ven">
+						</div>
+						<div class="product-text">	
+							<h3>Automatic Vending Machine</h3>
+							<p>Capacity - 60 pads</p>
+						</div>
+					</div>
+				</div>
+			</div>
 
-						</ul>
-						<span class="pricing-prices"><sup>Rs</sup>4000</span>
-						<a href="https://www.indiamart.com/mscleanhealthyenterprises/sanitary-napkin-vending-machine.html"
-							class="pricing-button">Buy Now</a>
+			<hr class="section-divider">
+
+			<!-- Burning Machines Section -->
+			<div class="product-category">
+				<h3 class="product-category-title">Burning Machines</h3>
+				<div class="product-grid">
+					<div class="product-item">
+						<img src="/images/Products/Incinerator 1.jpg" alt="Burning Machine 1" class="product-img-inc">
+						<h3>Sanitary Napkin Incinerator</h3>
+						<p>Burning Capacity - 100 Pads/Day</p>
+						<div class="spec-toggle">
+							<span class="spec-button">View Specifications</span>
+							<div class="spec-content">
+								<img src="/images/Products/Incinerator 1 specs.jpg" alt="Incinerator Specifications"
+									class="spec-img">
+							</div>
+						</div>
 					</div>
 
-					<div class="pricing-plan">
-						<img src="images/pricing/WhatsApp Image 2020-06-21 at 12.53.58 PM.jpeg" style="height: 240px;"
-							alt="" class="pricing-img">
-						<h2 class="pricing-headers">Sanitary Napkin Vending Machine(Big)</h2>
-						<ul class="pricing-features">
-							<li class="pricing-features-item">Sanitary Napkins Vending Machine with Capacity of 55-60
-								Pads</li>
-
-						</ul>
-						<span class="pricing-prices"><sup>Rs</sup>5000</span>
-						<a href="https://www.indiamart.com/mscleanhealthyenterprises/sanitary-napkin-vending-machine.html"
-							class="pricing-button">Buy Now</a>
+					<div class="product-item">
+						<img src="/images/Products/Incinerator 2.jpg" alt="Burning Machine 1" class="product-img-inc">
+						<h3>Sanitary Napkin Incinerator</h3>
+						<p>Burning Capacity - 50 to 100 Pads/Day</p>
+						<div class="spec-toggle">
+							<span class="spec-button">View Specifications</span>
+							<div class="spec-content">
+								<img src="/images/Products/Incinerator 2 specs.jpg" alt="Incinerator Specifications"
+									class="spec-img">
+							</div>
+						</div>
 					</div>
 
-					<div class="pricing-plan">
-						<img src="images/pricing/whatsapp-image-2020-06-21-at-12-54-02-pm-250x250.jpg"
-							style="height: 240px;" alt="" class="pricing-img">
-						<h2 class="pricing-headers">Medical Waste Furnace (Incinerator)</h2>
-						<ul class="pricing-features">
-							<li class="pricing-features-item">1000 Watt Ceramic heater with auto cut and LED display
-							</li>
-							<li class="pricing-features-item">Burning capacity- 3 to 4 pads at a time</li>
-						</ul>
-						<span class="pricing-price"><sup>Rs</sup>12000</span>
-						<a href="https://www.indiamart.com/mscleanhealthyenterprises/sanitary-napkin-disposal-machine.html"
-							class="pricing-button">Buy Now</a>
-					</div>
 
+					<div class="product-item">
+						<img src="/images/Products/furnace 1.jpg" alt="Burning Machine 2" class="product-img-inc">
+						<h3>Sanitary Napkin Furnace</h3>
+						<p>Durable and robust for heavy-duty usage.</p>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-
-	<!-- end pricing -->
-
-
-
+	</section>
 
 	<!-- contact -->
 	<div id="contact" class="contact section">
 		<div class="container">
-			<div class="box-content">
-				<div class="row">
-					<div class="col-md-4 col-sm-12">
-						<div class="content">
-							<h5>Address</h5>
-							<p>
-								Plot No.134, Industrial Area Phase
-
-								2, Panchkula-134109, Haryana, India</p>
-							<h5>Phone</h5>
-							<p>+91 8882240178</p>
-							<h5>Email</h5>
-							<p>dutt212@gmail.com</p>
-						</div>
+			<!-- Section Heading -->
+			<div class="row justify-content-center">
+				<div class="col-lg-8 text-center">
+					<h2 class="section-title">Contact Us</h2>
+					<p class="section-description">
+						Get in touch with us for any queries or assistance. We're here to help!
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<!-- Contact Information -->
+				<div class="col-lg-4 col-md-12">
+					<div class="content">
+						<h5>Address</h5>
+						<p>Plot No.134, Industrial Area Phase 2, Panchkula-134109, Haryana, India</p>
+						<h5>Phone</h5>
+						<p>+91 8882240178</p>
+						<h5>Email</h5>
+						<p><a href="mailto:dutt212@gmail.com" class="contact-link">dutt212@gmail.com</a></p>
+						<p><a href="mailto:viratlegalservices@gmail.com" class="contact-link">viratlegalservices@gmail.com</a></p>
 					</div>
-					<div class="col-md-8 col-sm-12">
-						<div class="content-right">
-							<form action="https://formspree.io/f/xzzpbopn" method="POST">
-								<div class="row">
-									<div class="col">
-										<input type="text" name="name" class="form-control" placeholder="Your Name"
-											required>
-									</div>
-									<div class="col">
-										<input type="email" name="email" class="form-control" placeholder="Your Email"
-											required>
-									</div>
+				</div>
+				<!-- Contact Form -->
+				<div class="col-lg-8 col-md-12">
+					<div class="content-right">
+						
+						<form action="https://formspree.io/f/xzzpbopn" method="POST">
+							<div class="row">
+								<div class="col-md-6">
+									<input type="text" name="name" class="form-control" placeholder="Your Name"
+										required>
 								</div>
-								<div class="row">
-									<div class="col">
-										<input type="text" name="subject" class="form-control" placeholder="Subject"
-											required>
-									</div>
+								<div class="col-md-6">
+									<input type="email" name="email" class="form-control" placeholder="Your Email"
+										required>
 								</div>
-								<div class="row">
-									<div class="col">
-										<textarea name="message" class="form-control" placeholder="Your Message"
-											rows="5" required></textarea>
-									</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<input type="text" name="subject" class="form-control" placeholder="Subject"
+										required>
 								</div>
-								<div class="row">
-									<div class="col">
-										<button type="submit" class="btn btn-primary">Send Message</button>
-									</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<textarea name="message" class="form-control" placeholder="Your Message" rows="5"
+										required></textarea>
 								</div>
-							</form>
-
-
-						</div>
+							</div>
+							<button type="submit" class="btn btn-primary">Send Message</button>
+						</form>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+
+
+
 	<!-- end contact -->
 
 	<!-- footer -->
@@ -592,7 +306,8 @@
 					<div class="content">
 						<h5>About</h5>
 						<ul>
-							<li><a href="#download"><i class="fa fa-angle-double-right"></i> About us</a></li>
+							<li><a href="#download"><i class="fa fa-angle-double-right"></i> About us</a>
+							</li>
 							<li><a href="#contact"><i class="fa fa-angle-double-right"></i> Contact</a></li>
 							<li><a href="#gallery"><i class="fa fa-angle-double-right"></i> Gallery</a></li>
 						</ul>
@@ -602,9 +317,11 @@
 					<div class="content">
 						<h5>Support</h5>
 						<ul>
-							<li><a href=""><i class="fa fa-angle-double-right"></i> dutt212@gmail.com</a></li>
+							<li><a href=""><i class="fa fa-angle-double-right"></i> dutt212@gmail.com</a>
+							</li>
 							<li><a href=""><i class="fa fa-angle-double-right"></i> +91 8882240178</a></li>
-							<li><a href="#pricing"><i class="fa fa-angle-double-right"></i> Pricing package</a></li>
+							<li><a href="#pricing"><i class="fa fa-angle-double-right"></i> Pricing
+									package</a></li>
 						</ul>
 					</div>
 				</div>
@@ -628,7 +345,7 @@
 
 	<!-- footer bottom -->
 	<div class="footer-bottom">
-		<span>©2020 All Rights Reserved By Sankalp Dutt</span>
+		<span>©2024 All Rights Reserved By Clean And Healthy Enterprises</span>
 	</div>
 	<!-- end footer bottom -->
 
